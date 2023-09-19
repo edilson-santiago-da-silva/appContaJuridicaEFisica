@@ -1,23 +1,23 @@
 package entities;
 
 public abstract class Contribuinte {
-	private String name;
+	private String nome;
 	private Double rendaAnual;
 	
 	public Contribuinte() {
 	}
 
-	public Contribuinte(String name, Double rendaAnual) {
-		this.name = name;
+	public Contribuinte(String nome, Double rendaAnual) {
+		this.nome = nome;
 		this.rendaAnual = rendaAnual;
 	}
 
-	public String getName() {
-		return name;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 	public Double getRendaAnual() {
@@ -28,7 +28,7 @@ public abstract class Contribuinte {
 		this.rendaAnual = rendaAnual;
 	}
 	
-	
+	public abstract Double taxa();
 	
 	
 }
