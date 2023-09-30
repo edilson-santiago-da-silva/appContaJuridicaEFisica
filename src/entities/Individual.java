@@ -1,10 +1,10 @@
 package entities;
 
-public class ContaFisica extends Contribuinte{
+public class Individual extends Contribuinte{
 
 	private Double gastosSaude;
 
-	public ContaFisica(String nome, Double rendaAnual, Double gastosSaude) {
+	public Individual(String nome, Double rendaAnual, Double gastosSaude) {
 		super(nome, rendaAnual);
 		this.gastosSaude = gastosSaude;
 	}

@@ -1,9 +1,9 @@
 package entities;
 
-public class ContaJuridica extends Contribuinte {
+public class Empresarial extends Contribuinte {
 	private Integer numeroDefuncionarios;
 
-	public ContaJuridica(String nome, Double rendaAnual, Integer numeroDefuncionarios) {
+	public Empresarial(String nome, Double rendaAnual, Integer numeroDefuncionarios) {
 		super(nome, rendaAnual);
 		this.numeroDefuncionarios = numeroDefuncionarios;
 	}
